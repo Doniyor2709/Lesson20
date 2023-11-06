@@ -1,0 +1,36 @@
+.users_wrapper{
+    width: 100%;
+    &_header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        input{
+            width: 250px;
+            height: 35px;
+        }
+        button{
+            padding: 19px !important;
+            background-color: rgb(184, 184, 184);
+            border: 1px solid rgb(0, 0, 0) ;
+            outline: none;
+            color: rgb(113, 113, 113);
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .25rem;
+            cursor: pointer;
+            &:hover{
+                background-color: transparent;
+                color: rgb(0, 0, 0);
+                transition: .1s linear;
+            }
+        }
+    }
+}
+
+
+      

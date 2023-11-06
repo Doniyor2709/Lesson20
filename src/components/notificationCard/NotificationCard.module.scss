@@ -1,0 +1,34 @@
+.notif_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Montserrat Alternates";
+  cursor: default;
+  h3 {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  p {
+    width: 150px;
+    font-size: 12px;
+    font-style: italic;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+  button{
+    cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+}
