@@ -8,6 +8,7 @@ const HomePage = () => {
       <div className="container">
         <div className={styles.home__wrapper}>
             <button onClick={() => navigate('/login')}>LOGIN</button>
+            <button onClick={() => navigate('/login')}>REGISTER</button>
         </div>
       </div>
     </section>
