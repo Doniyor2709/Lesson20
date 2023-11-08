@@ -178,3 +178,7 @@
   }
  }
  
+
+ :where(.css-dev-only-do-not-override-nbo0p6).ant-layout{
+  background: white !important;
+ }
